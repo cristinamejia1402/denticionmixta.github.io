@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+   <meta name="viewport" content="width=320"/>
+   <link rel="stylesheet" type="text/css" href="./css/denticionmixta2.css">
+   <title>Dentición Mixta/Registro Pacientes</title>
+    <script src=””></script>
+</head>
+
+
+<body>
+  <main>
+    <header>
+      <div> 
+        <div><h1>ANÁLISIS DE DENTICIÓN MIXTA</h1></div>
+        <div><p>Herramienta de diagnóstico odontológico para calcular el espacio disponible en boca</p></div>
+      </div>
+    </header>
+
+    <sidebar>
+      <nav>
+        <ul>
+          <li><a href="../version3/Index.html">Inicio</a></li>
+          <li>
+            <a href="../version3/Registro_Pacientes.html"
+              >Registro de Admisión pacientes</a
+            >
+          </li>
+          <li>
+            <a href="../version3/Registro_Historia_Clinica.html"
+              >Registro Historia Clínica</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </sidebar>
+
+    <div>
+
+      <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+        <div class="tablita">
+          <table class="tabla" id="tabla">
+            <thead>
+              <tr> 
+                <th>Nombre</th> 
+                <th>Apellido</th>
+                <th>Sexo</th>
+                <th>Opciones</th>
+              </tr>
+            </thead>
+              <tbody>
+
+              </tbody>
+          </table>
+        </div>
+        <br/>
+        <br/>
+        <div class="caja">
+          <label for="nom">Nombre</label> <input type="text" id="nom" placeholder="Nombre completo" required>
+          <label for="ape">Apellido</label> <input type="text" id="ape" placeholder="Apellido" required>
+          <label for="pais">Sexo</label> <input type="text" id="sexo" placeholder="Sexo" required>
+        </div>
+        <br/>
+        <input class="submit" type="submit" value="Enter para ingresar">
+        </form>
+
+ 
+  </main>
+  <script src="./script/registroPacientes.js"></script>
+  <footer>
+    <p>@Copyright 2022 por Carlos Leal y Cristina Mejia</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+  
+
+
+
+
+
+
+
